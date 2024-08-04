@@ -31,3 +31,20 @@
 
 .container {
 }
+
+.rectangle{
+  background-color: black;
+  width: 832px;
+  height: 60px;
+  position: center;
+
+}
+
+.orderButton{
+  width: auto;
+  height: 40px;
+  position: absolute;
+  right: 385px;
+  color: aliceblue;
+  background: black;
+}
