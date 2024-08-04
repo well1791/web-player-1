@@ -9,13 +9,6 @@ export default function Home() {
           <span className={styles.icon}>icon</span>
           <input className={styles.searchBar} type="text" />
         </div>
-        <div className={styles.rectangle}>
-          <select className={styles.orderButton}>
-            <option disabled selected>Order By</option>
-            <option>Date</option>
-            <option>Title</option>
-          </select>
-        </div>
       </main>
       <footer className={styles.footer}>footer</footer>
     </div>
