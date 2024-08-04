@@ -31,3 +31,10 @@
 
 .container {
 }
+
+.rectangle{
+  background-color: black;
+  width: 832px;
+  height: 60px;
+  position: relative;
+}

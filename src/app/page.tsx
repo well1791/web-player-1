@@ -9,6 +9,7 @@ export default function Home() {
           <span className={styles.icon}>icon</span>
           <input className={styles.searchBar} type="text" />
         </div>
+        <div> className={styles.Rectangle}</div>
       </main>
       <footer className={styles.footer}>footer</footer>
     </div>
