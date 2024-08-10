@@ -21,6 +21,8 @@
   min-height: calc(100vh - 110px);
   max-width: 832px;
   margin-inline: auto;
+
+  position: relative;
 }
 
 .footer {
@@ -33,18 +35,20 @@
 }
 
 .rectangle {
-  background-color: black;
-  width: 832px;
   height: 60px;
+  background-color: black;
+
+  position: relative;
 }
 
 .orderButton {
   width: auto;
   height: 40px;
+  border: none;
 
   position: absolute;
-  right: 385px;
-  
+  right: 0;
+
   color: aliceblue;
   background: black;
 }

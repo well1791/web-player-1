@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div className={styles.rectangle}>
           <select className={styles.orderButton}>
-            <option disabled selected>Order By</option>
+            <option disabled>Order By</option>
             <option>Date</option>
             <option>Title</option>
           </select>
