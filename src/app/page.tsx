@@ -1,17 +1,16 @@
-import Image from "next/image";
+"use client";
+
 import styles from "./page.module.css";
+import SearchBar from "./components/searchBar/searchBar";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div className={styles.searchBarContainer}>
-          <span className={styles.icon}>icon</span>
-          <input className={styles.searchBar} type="text" />
-        </div>
+        <SearchBar />
         <div className={styles.rectangle}>
           <select className={styles.orderButton}>
-            <option disabled selected>Order By</option>
+            <option disabled>Order By</option>
             <option>Date</option>
             <option>Title</option>
           </select>
