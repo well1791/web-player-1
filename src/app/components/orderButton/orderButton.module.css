@@ -1,0 +1,20 @@
+.orderButton {
+    width: auto;
+    height: 40px;
+    border: none;
+  
+    color: aliceblue;
+    background: black;
+}
+
+.orderButtonContainer {
+    position: absolute;
+    right: 0;
+}
+
+.orderButtonRectangle {
+    height: 60px;
+    background-color: black;
+  
+    position: relative; 
+}
