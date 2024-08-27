@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <SearchBar />
-        <OrderButton/>
+        <OrderButton />
       </main>
       <footer className={styles.footer}>footer</footer>
     </div>

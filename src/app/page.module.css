@@ -1,18 +1,16 @@
 .main {
-  min-height: calc(100vh - 110px);
-  max-width: 832px;
-  margin-inline: auto;
-
-  position: relative;
-}
+    min-height: calc(100vh - 110px);
+    max-width: 832px;
+    margin-inline: auto;
+  
+    position: relative;
+  }
 
 .footer {
-  height: 110px;
-  max-width: 1512px;
-  margin-inline: auto;
+    height: 110px;
+    max-width: 1512px;
+    margin-inline: auto;
 }
 
-.container {
+  .container {
 }
-
-
