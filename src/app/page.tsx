@@ -3,6 +3,7 @@
 import styles from "./page.module.css";
 import SearchBar from "./components/searchBar/searchBar";
 import OrderButton from "./components/orderButton/orderButton";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <SearchBar />
         <OrderButton />
       </main>
-      <footer className={styles.footer}>footer</footer>
+      <Footer />
     </div>
   );
 }
